@@ -62,3 +62,6 @@ BOARD_BATTERY_DEVICE_NAME := "battery"
 TARGET_RELEASETOOLS_EXTENSIONS := device/samsung/qcom-common
 
 BOARD_HARDWARE_CLASS := hardware/samsung/cmhw
+
+# LZ vendor scripts
+$(call inherit-product-if-exists, vendor/lz-kernel/msm8660/lightningzap.mk)
