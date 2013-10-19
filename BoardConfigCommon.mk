@@ -64,4 +64,4 @@ TARGET_RELEASETOOLS_EXTENSIONS := device/samsung/qcom-common
 BOARD_HARDWARE_CLASS := hardware/samsung/cmhw
 
 # LZ vendor scripts
--include vendor/lz-kernel/msm8660/lightningzap.mk)
+-include vendor/lz-kernel/msm8660/lightningzap.mk
