@@ -66,3 +66,5 @@ BOARD_HARDWARE_CLASS := hardware/samsung/cmhw
 # Override healthd HAL
 BOARD_HAL_STATIC_LIBRARIES := libhealthd.qcom
 
+# LZ vendor scripts
+include vendor/lz-kernel/msm8660/lightningzap.mk
